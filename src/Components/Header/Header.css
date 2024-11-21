@@ -1,0 +1,28 @@
+
+
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    gap: 20px;
+
+}
+.header h1{
+    font-size: 50px;
+}
+
+.header p{
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media(max-width:350px){
+.header h1{
+    font-size: 35px;
+}
+}
